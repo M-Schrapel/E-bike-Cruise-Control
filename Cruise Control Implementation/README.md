@@ -43,6 +43,7 @@ Depending on your bike, you may need to modify this tutorial. Some bikes use ext
 ### Cable
 Locate the cable from your DC motor to the controller. There are many different cables, we here refer to the commonly used 9 pin HiGo Main Signal cable. You can find a list and pinouts here: [Link](https://ebikes.ca/learn/connectors.html). If you have no access to the direct wires in your e-bike controller, carefully remove the outer insulation. If you use a N-channel transistor locate the black wire (GND) among the nine wires inside. For P-channel transistor, locate the small red wire (+5V). Depending on your cable, the black wire might be hidden underneath the outer wires. Cutting or detaching this wire should stop the engine from turning on. In the following picture you see an example of the modifications:
 
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/ebike_cable.jpg)
 
 If your motor stops working, you should be able now to turn the motor on and off with a transistor and you can continue with the tutorial.
 
@@ -50,12 +51,14 @@ If your motor stops working, you should be able now to turn the motor on and off
 
 Solder a wire to each end of the cut wire for the transistor. The wire connected to the controller is the GND, while the other is the input signal. Using a logic-level N-MOSFET, connect the GND to the Source (S) of the MOSFET and the other end to the hall switches, connected to the Drain (D). The Gate (G) is connected via a 100k Ohm resistor to GND and a 200-1k Ohm resistor to your microcontroller. Here is an example of a successful modified cable:
 
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/ebike_module.jpg)
 
 ### Isolate Cable
 
 Isolate your hardware from water and mud after cutting the wires using insulating tape, liquid, and a glue gun. Isolate your solder joints with tape or liquid tape (allow it to dry). Then cover all cables with heated glue and use insulating tape again to cover the cut wire. Though not standardized, this method can effectively protect cables for years from my experience. The transistor can also be covered using this method. However, be aware that you probably need some soldering practice before you can modify cables that last long. 
 Now here is the final modification:
 
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/ebike_mod.jpg)
 
 ## Speed Measurement
 
