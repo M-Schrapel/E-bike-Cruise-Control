@@ -103,8 +103,8 @@ unsigned long speedTime     = 0; // current speed timestamp in microseconds
 unsigned long lastspeedTime = 0; // last speed timestamp in microseconds
 unsigned long diffspeedTime = 0; // Difference between timestamps
 
-uint8_t pin_MOSFET     = 5; // Digital pin of your transistor
-uint8_t pin_Hallsensor = 4; // Digital pin of your hall switch for speed measurements
+uint8_t pin_MOSFET     = 4; // Digital pin of your transistor
+uint8_t pin_Hallsensor = 5; // Digital pin of your hall switch for speed measurements
 
 // updates wheel parameters (in m/s)
 void updateWheel(double wz) {
