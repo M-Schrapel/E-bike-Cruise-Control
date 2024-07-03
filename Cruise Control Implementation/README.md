@@ -30,11 +30,11 @@ We require a single logic-level N-channel transistor for switching, placed betwe
 
 ### Schematics
 
-The following schematic shows how your n-MOSFET should be build. I use simple prototyping boards. Feel free to make you own design. 
+The following schematic shows our switching schematic for controlling the e-bike motor. I use simple prototyping boards. Feel free to make you own design. 
 
-![](https://www.electronics-tutorials.ws/wp-content/uploads/2013/09/tran57.gif)
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/schematic_basic.jpeg)
 
-Rin should be between 200 to 1000Ohms. Resistor RL is the hall sensors. Between the pins (G) and (S) of your logic-level MOSFET we additionally add a 100k resistor. The signal Vin should be connected to your microcontroller. By applying a HIGH signal on Vin, your e-bike motor will turn on. If you want to learn more about how MOSFET and this schematic work please refer to  [electronics-tutorials](https://www.electronics-tutorials.ws/transistor/tran_7.html) 
+R1 should be between 200 to 1000Ohms. Between the pins (G) and (S) of your logic-level MOSFET we additionally add a R2=100k resistor. Your microcontroller GND must be connected to the GND of the e-bike controller. By applying a HIGH signal on Pin 4, your e-bike motor will turn on. If you want to learn more about how MOSFETs and this schematic work please refer to [electronics-tutorials](https://www.electronics-tutorials.ws/transistor/tran_7.html) 
 
 ## Mounting the Hardware
 
