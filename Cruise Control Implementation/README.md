@@ -32,7 +32,7 @@ We require a single logic-level N-channel transistor for switching, placed betwe
 
 The following schematic shows how your n-MOSFET should be build. I use simple prototyping boards. Feel free to make you own design. 
 
-![](https://www.electronics-tutorials.ws/wp-content/uploads/2013/09/tran57.gif?fit=267%2C146?fit=267,226)
+![](https://www.electronics-tutorials.ws/wp-content/uploads/2013/09/tran57.gif)
 
 Rin should be between 200 to 1000Ohms. Resistor RL is the hall sensors. Between the pins (G) and (S) of your logic-level MOSFET we additionally add a 100k resistor. The signal Vin should be connected to your microcontroller. By applying a HIGH signal on Vin, your e-bike motor will turn on. If you want to learn more about how MOSFET and this schematic work please refer to  [electronics-tutorials](https://www.electronics-tutorials.ws/transistor/tran_7.html) 
 
