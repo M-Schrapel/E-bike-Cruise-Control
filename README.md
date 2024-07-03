@@ -1,6 +1,6 @@
 # E-Bike Cruise Control
 
-This repository provides insights into our research on eBike Cruise Control.
+This repository provides insights into our research on e-bike Cruise Control.
 
 ## Contents
 
