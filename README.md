@@ -14,11 +14,11 @@ Cruise Control (CC), known from cars and trucks, limits automatically your trave
 
 We tested our technology with different cyclists. Here is an average pattern recorded on a 300m straight road that exemplifies how the technology limits speeds. Different motor modes (Eco, Turbo) were tested and compared to cycling without electric support (None).
 
-![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling pattern comb.jpg)
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling_pattern_comb.jpg)
 
 We also tested CC at different speeds. Here you find an average cycling patterns from 16 to 22 km/h:
 
-![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling pattern_all.jpg)
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling_pattern_all.jpg)
 
 CC can effectively reduce your speed and potentially reduce risks of accidents at higher speeds. Please refer to our Implementation folder if you want to modify your own e-bike at your risk.
 
