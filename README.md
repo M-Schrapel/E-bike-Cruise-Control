@@ -12,12 +12,13 @@ This repository provides insights into our research on eBike Cruise Control.
 
 Cruise Control (CC), known from cars and trucks, limits automatically your travelled speed. We are doing research on CC applications for e-bikes and have built a prototype that can be implemented on e-bikes from many different manufacturers. Once you reach your desired speed, the motor disengages what makes it hard to further accelerate. If you feel your e-bike is too fast, this is an easy way to reduce your perceived risk.
 
-We tested this technology with different cyclists. Here is an average pattern recorded on a 300m straight road that exemplifies how the technology limits speeds. Different motor modes (Eco, Turbo) were tested and compared to cycling without electric support (None).
+We tested our technology with different cyclists. Here is an average pattern recorded on a 300m straight road that exemplifies how the technology limits speeds. Different motor modes (Eco, Turbo) were tested and compared to cycling without electric support (None).
 
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling pattern comb.jpg)
 
-We also tested CC at different speeds. Here you find an average cycling pattern for 16 to 22 km/h:
+We also tested CC at different speeds. Here you find an average cycling patterns from 16 to 22 km/h:
 
-
+![](https://raw.githubusercontent.com/M-Schrapel/E-bike-Cruise-Control/main/Cruise%20Control%20Implementation/Images/route_cycling pattern_all.jpg)
 
 CC can effectively reduce your speed and potentially reduce risks of accidents at higher speeds. Please refer to our Implementation folder if you want to modify your own e-bike at your risk.
 
